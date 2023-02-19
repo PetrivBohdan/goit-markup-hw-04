@@ -366,9 +366,9 @@ border-bottom:1px solid var(--color-footer-text);
 
 .customers-icon:hover,
 .customers-icon:focus{
-fill:var(--color-button-action)
+fill:var(--color-button-action);
+border-color: var(--color-button-action);
 }
-
 
 
 /* out team */
@@ -401,10 +401,12 @@ padding:8px 16px 0 16px;
   border-radius: 50%;
 }
 
-.socials-link:hover {
+.socials-link:hover,
+.socials-link:focus {
   background-color:var(--color-button-action);
 }
 /* custumers */
+
 .benefits-item {
   flex-basis: calc((100% - 24px * 3) / 4);
 }
@@ -446,6 +448,7 @@ padding:8px 16px 0 16px;
   justify-content: center;
 }
 
-.footer-href:hover{
+.footer-href:hover,
+.footer-href:focus{
   background-color: var(--color-icon);
 }
